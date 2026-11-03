@@ -71,7 +71,7 @@ The Makefile uses the supplied synthetic dataset as input; it does not automatic
 | **Figure 1: Faceted age distributions** | **`code/03_make_figure1.R`** | `output/figure1.png` |
 | Final HTML report | `strong_analysis.Rmd` and `Makefile` | `strong_analysis.html` |
 
-The adult sample includes participants aged 18 or older classified as TF or TM. Table 1 reports age at index (mean and SD) and categorical demographic variables (counts and percentages). Figure 1 uses separate TF and TM panels.
+The analysis includes simulated STRONG participants aged 18 years and older who are classified as transfeminine (TF) or transmasculine (TM). Table 1 summarizes age at index (mean and standard deviation) and demographic characteristics (counts and percentages). Figure 1 presents age distributions separately for the TF and TM subgroups.
 
 ## Privacy and interpretation
 
