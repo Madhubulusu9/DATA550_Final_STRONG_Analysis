@@ -50,7 +50,12 @@ Then run this in the **Terminal**, not the R Console:
 make
 ```
 
-The final compiled report is **`strong_analysis.html`**.
+The Makefile generates two versions of the final report:
+
+- **HTML report:** `strong_analysis.html`
+- **PDF report:** `strong_analysis.pdf`
+
+Both reports include Table 1 and Figure 1. PDF generation requires a LaTeX distribution.
 
 To rebuild all generated outputs from scratch:
 
@@ -69,7 +74,7 @@ The Makefile uses the supplied synthetic dataset as input; it does not automatic
 | Adult sample preparation | `code/01_prepare_data.R` | `output/analysis_data.rds` |
 | **Table 1: Participant characteristics by TF/TM** | **`code/02_make_table1.R`** | `output/table1.rds` |
 | **Figure 1: Faceted age distributions** | **`code/03_make_figure1.R`** | `output/figure1.png` |
-| Final HTML report | `strong_analysis.Rmd` and `Makefile` | `strong_analysis.html` |
+| Final HTML and PDF reports | `strong_analysis.Rmd` and `Makefile` | `strong_analysis.html`, `strong_analysis.pdf` |
 
 The analysis includes simulated STRONG participants aged 18 years and older who are classified as transfeminine (TF) or transmasculine (TM). Table 1 summarizes age at index (mean and standard deviation) and demographic characteristics (counts and percentages). Figure 1 presents age distributions separately for the TF and TM subgroups.
 

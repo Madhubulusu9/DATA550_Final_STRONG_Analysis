@@ -1,12 +1,12 @@
 
 ---
 title: "Descriptive Analysis of Synthetic STRONG Data"
+subtitle: "DATA 550 — Data Science Toolkit"
 author: "Madhu Bulusu"
 date: "`r Sys.Date()`"
 output:
   html_document: default
-# output:
-#   pdf_document: default
+  pdf_document: default
 # fontsize: 11pt
 ---
 
