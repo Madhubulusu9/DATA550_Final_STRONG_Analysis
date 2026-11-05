@@ -55,7 +55,7 @@ The adult analytic sample included 75 TF participants and 158 TM participants. M
 
 Figure 1 shows the distribution of age at index separately for transfeminine (TF) and transmasculine (TM) participants in the adult synthetic STRONG sample.
 
-```{r age-figure, out.width="100%"}
+```{r age-figure, out.width="85%"}
 knitr::include_graphics("output/figure1.png")
 ```
 
