@@ -32,6 +32,13 @@ STRONG_Data_Analysis/
 ├── README.md
 └── strong_simulation.Rproj
 ```
+## Required Software and Packages
+
+- R
+- RStudio (recommended)
+- GNU Make
+- R packages: `dplyr`, `ggplot2`, `gtsummary`, `rmarkdown`, and `knitr`
+- A LaTeX distribution for PDF generation
 
 ## How to generate the report
 
@@ -73,4 +80,4 @@ The analysis includes simulated STRONG participants aged 18 years and older who 
 
 ## Privacy and interpretation
 
-This public coursework repository is intended to contain **synthetic data only**. Do not upload actual STRONG records, confidential research files, credentials, or personally identifying information. The simulated patterns must not be interpreted as real study findings.
+This repository contains only synthetic data modeled on selected variables from the STRONG study. No actual participant-level data are included, and the results should not be interpreted as findings from the real STRONG study.
