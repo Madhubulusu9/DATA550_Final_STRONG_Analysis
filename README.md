@@ -42,7 +42,7 @@ STRONG_Data_Analysis/
 
 ## How to generate the report
 
-Open a Terminal in the `STRONG_Data_Analysis` project directory. The project requires R, `make`, and the R packages used in the scripts and report (`dplyr`, `ggplot2`, `gtsummary`, `rmarkdown`, and `knitr`).
+Open a Terminal in the STRONG_Data_Analysis project directory. Make sure the required software and packages listed above are installed before running the commands below.
 
 Then run this in the **Terminal**, not the R Console:
 
