@@ -30,19 +30,12 @@ STRONG_Data_Analysis/
 ├── strong_analysis.Rmd
 ├── Makefile
 ├── README.md
-├── renv.lock
 └── strong_simulation.Rproj
 ```
 
 ## How to generate the report
 
 Open a Terminal in the `STRONG_Data_Analysis` project directory. The project requires R, `make`, and the R packages used in the scripts and report (`dplyr`, `ggplot2`, `gtsummary`, `rmarkdown`, and `knitr`).
-
-If using the project's `renv` environment, restore the recorded packages in R:
-
-```r
-renv::restore()
-```
 
 Then run this in the **Terminal**, not the R Console:
 
